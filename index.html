@@ -7,7 +7,115 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello there
-    <script src="script.js"></script>r
+    <script src="script.js"></script>
+
+    <h1>H1</h1>
+    <h2>H2</h2>  
+    <h3>H3</h3>  
+    <h4>H4</h4>  
+    <h5>H5</h5>  
+    <h6>H6</h6> 
+    
+    <hr>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia hic cupiditate maxime, quaerat, iusto nobis porro fuga harum aut laboriosam ab quos animi?</p>
+
+    <hr>
+
+    <p><a target="_blank" href="https://www.wikipedia.com">Open Wikipedia in new tab</a></p>
+    <p><a target="" href="https://www.stackoverflow.com">Open Stackoverflow in same tab</a></p>
+    <hr>
+
+    <img height="500" src="image.png" alt="Train image">
+
+    <hr>
+
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <td>shivang</td>
+                <td>ITW</td>
+                <td>26</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Ram</td>
+                <td rowspan="2">Maths</td>
+            </tr>
+            <tr>
+                <td colspan="2">Ram</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Ram</td>
+                <td rowspan="2">30</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <ul type="square">
+        <li>this is a</li>
+        <li>unordered</li>
+        <li>list</li>
+    </ul>
+
+    <hr>
+
+    <ol type="A">
+        <li>this is a</li>
+        <li>ordered </li>
+        <li>list</li>
+    </ol>
+
+    <hr>
+
+    <h1>Form for Student Details</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter name" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">read the terms and conditions</label>
+        </div>
+        <div>
+            <label for="comment">About</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits">
+                <option value="apple">Father</option>
+                <option value="banana">Mother</option>
+                <option value="cherry">Sister</option>
+          </select>
+        </div>
+    </form>
+
+    <hr>
+
+
 </body>
 </html>
